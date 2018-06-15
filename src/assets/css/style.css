@@ -1,0 +1,567 @@
+body {
+    background-color: #ECF5FD;
+    color: #3F536E;
+	height:100%;
+}
+
+html {
+	height:100%;
+}
+
+.full-height {
+	height:100%;
+}
+
+body.form {
+    background-color: #fff;
+}
+
+.module-title h1 {
+    font-size: 34px;
+    font-weight: 300;
+}
+
+.module-actions {
+    font-size: 15px;
+    color: #3F536E;
+    font-weight: 400;
+}
+
+table.table {
+    background-color: #fff;
+    border-radius: 4px;
+    dborder: 1px solid rgba(183,210,229, 0.8);
+    box-shadow: 0 0 0 1px rgba(183,210,229, 0.8); /* this draws the table border  */
+    margin-bottom: 0.75rem;
+}
+
+table.table thead th {
+    color: #8DABC4;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(183,210,229, 0.8);;
+}
+
+table.table.table-hover tbody tr[href] {
+    cursor: pointer;
+}
+
+table.table.table-hover tbody tr:hover {
+    background-color: #FAFBFC;
+}
+
+table.table tbody th,
+table.table tbody td {
+    vertical-align: middle;
+    color: #3F536E;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(183,210,229, 0.8);
+}
+
+table.table tbody .badge {
+    padding: 8px 16px;
+}
+
+table.table tbody .avatar {
+    width: 36px;
+}
+table.table tbody .avatar img {
+    width: 36px;
+    height: 36px;
+    border-radius: 12px;
+}
+
+/* Buttons */
+.btn-group .btn + .btn,
+.btn-group .dropdown + .dropdown,
+.btn-group .btn + .dropdown,
+.btn-group .dropdown + .btn {
+    margin-left: 4px;
+}
+
+.btn {
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-primary {
+    background-color: #0093EE;
+    border: 1px solid rgba(0,0,0,0.07);
+}
+
+.btn-secondary {
+    background-color: #44658B;
+    border: 1px solid rgba(0,0,0,0.07);
+}
+
+.btn-danger {
+    background-color: #FF151F;
+    border: 1px solid rgba(0,0,0,0.07);
+}
+
+.btn-warning {
+    background-color: #FACA00;
+    border: 1px solid rgba(0,0,0,0.07);
+}
+
+.btn-light {
+    background-color: #FFFFFF;
+    border: 1px solid #C5D9E8;
+}
+
+/* Horizontal line */
+hr {
+    border-top: 1px solid #E5EEF5;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Cards */
+.card {
+    border-color: #D8E5EE;
+}
+
+.card {
+    margin-bottom: 0.75rem;
+    overflow: hidden;
+}
+
+.card .form-actions {
+    margin: 0 !important;
+}
+
+.card .card-body .card-title  {
+    display: block;
+    background-color: #FAFBFC;
+    color: #8DABC4;
+    height: 42px;
+    line-height: 42px;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 0 0 0 20px;
+    margin: -20px -20px -20px -20px;
+}
+
+.card a {
+    color: #3F536E;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+/* Rows */
+.row {
+    margin-bottom: 0.75rem;
+}
+
+/* Tables */
+.dataTables_wrapper {
+    display: block !important;
+}
+
+/* Forms */
+form {
+
+}
+
+.card .form-actions,
+form .form-actions {
+    text-align: right;
+    background-color: #FAFBFC;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-top: 50px;
+    border: 1px solid #D8E5EE;
+    border-radius: 4px;
+}
+
+.form-control,
+.custom-select {
+    border: 1px solid #D8E5EE;
+}
+
+.form-check-label  input {
+    position: relative !important;
+    top: -2px;
+    margin-right: 6px;
+}
+
+/* Gallery */
+.image-gallery {
+    margin-bottom: 0.75rem;
+}
+
+.image-gallery .title i {
+    position: relative;
+    top: 4px;
+    color: #4ECE3D;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.image-gallery .image-list {
+    margin: 0.75rem 0px 0px 0px;
+    padding: 0;
+    list-style: none;
+}
+
+.image-gallery .image-list li {
+    display: inline-block;
+}
+
+.image-gallery .image-list li + li {
+    margin-left: 5px;
+}
+
+.image-gallery .image-list li img {
+    height: 64px;
+    width: 64px;
+    border-radius: 4px;
+}
+
+
+/** New Style Csss**/
+
+.module-title p {
+	background:#fff;
+	border:1px solid #abc5d8;
+	padding:15px;
+	border-radius:5px;
+	float:left;
+	width:100%;
+}
+
+.module-title label {
+	color:#a6bfd3;
+	font-size:14px;
+}
+
+.module-title .add-comment {
+	background:#fff;
+	border:1px solid #abc5d8;
+	border-radius:5px;
+	float:left;
+	width:100%;
+	padding-bottom:0px;
+}
+
+.module-title .add-comment a.btn-info {
+	line-height:40px;
+	color:#fff;
+	font-size:16px;
+	background:#0093ee;
+	border-radius:5px;
+	padding:0px 40px;
+	display:inline-block;
+	margin-top:-40px;
+	text-decoration:none;
+}
+
+.module-title .add-comment textarea {
+	border:none;
+	width:100%;
+	color:#a8c6df!important;
+	resize:none;
+	height:80px;
+	outline:0;
+	padding-top:10px;
+}
+
+.module-title .add-comment a {
+	color:#a8c6df;
+}
+
+
+.module-title p:before {
+	content:'';
+	position:absolute;
+	left:9px;
+	background:url(../img/arrow.png) 0px 0px no-repeat;
+	top:15px;
+	width:7px;
+	height:14px;
+}
+
+.module-title p.right-before:before {
+	content:'';
+	position:absolute;
+	left:auto;
+	right:9px;
+	background:url(../img/arrow-2.png) 0px 0px no-repeat;
+	top:15px;
+	width:7px;
+	height:14px;
+}
+
+.module-title p a {
+	display:inline-block;
+	margin-top:5px;
+	color:#0093ee;
+	text-decoration:none;
+	margin-right:3px;
+}
+
+.module-title p span {
+	color:#8dabc4;
+}
+
+.module-title p a.images {
+	position:relative;
+	margin-top:7px;
+}
+
+.module-title p a.images:hover .material-icons {
+	display:block;
+}
+
+.module-title p a.images .material-icons {
+	position:absolute;
+	left:0%;
+	top:0%;
+	background:rgba(54,68,86,0.8);
+	color:#fff;
+	width:100%;
+	padding-top:10px;
+	height:100%;
+	border-radius:3px;
+	display:none;
+	text-align:center;
+}
+
+.flush-left {
+	padding-left:0px;
+}
+
+.new-message {
+	display:inline-block;
+	width:100%;
+	border:1px solid #eddee7;
+	height:1px;
+	margin:10px 0px;
+	margin-bottom:30px;
+}
+
+.new-message span {
+	text-transform:uppercase;
+	color:#ff151f;
+	font-size:12px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-weight:600;
+	background:#ecf5fd;
+	display:inline-block;
+	    position: relative;
+    top: -14px;
+	padding:0px 8px;
+}
+
+.about.sound {
+	position:absolute;
+	bottom:56px;
+	left:0%;
+	border-top:1px solid #d8e5ee;
+	padding:22px 0px;
+	width:100%;
+}
+
+.about .material-icons.volume_up {
+	float:left;
+	color:#c5d9e8;
+	margin-right:10px;
+	margin-top:0px;
+}
+
+.about .material-icons.settings {
+	float:right;
+	color:#c5d9e8;
+	margin-right:10px;
+	margin-top:0px;
+}
+
+#topbar .filter-title {
+	padding-top:10px;
+	border-left: 1px solid #1986c9;
+	padding-bottom:8px;
+}
+
+#topbar .filter-title .material-icons.search {
+	color:#fff;
+	margin-top:10px;
+}
+
+#topbar input[type="search"] {
+	width:80%;
+	border:none;
+	height:40px;
+	background:none;
+	padding-left:10px;
+	color:#fff;
+	outline:0;
+	font-size:16px;
+	float:right;
+	
+}
+
+#topbar input[type="search"]::-webkit-input-placeholder {
+	color:#fff !important;
+}
+
+.right-side {
+	position:fixed;
+	right:0px;
+	height:100%;
+	background:#fff;
+	width:60px;
+	top:0px;
+	padding-top:70px;
+	border-left:1px solid #c5d9e8;
+}
+
+.right-side ul li  {
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	padding:8px 0px;
+}
+
+.right-side ul {
+	padding:0px;
+}
+
+.right-side ul li a {
+	display:inline-block;
+	font-size:20px;
+	color:#fff;
+	font-weight:bold;
+	background:#ab7df6;
+	height:36px;
+	line-height:30px;
+	border-radius:10px;
+	position:relative;
+	text-decoration:none;
+	width:36px;
+}
+
+.right-side ul li:last-child a {
+	background:none;
+	color:#60d351;
+} 
+
+.right-side ul li a.light-blue {
+	background:#26c1c9;
+}
+
+.right-side ul li a.yellow {
+	background:#faca00;
+}
+
+
+.right-side ul li a span {
+	    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: #4dcd3c;
+    border: 1px solid #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.help {
+	position:absolute;
+	bottom:10px;
+	left:0%;
+	width:100%;
+	text-align:center;
+}
+
+.help .material-icons {
+	color:#c5d9e8;
+}
+
+.position {
+	position:relative;
+	height:100%;
+}
+
+.module-title.comment-bottom {
+	position:absolute;
+	bottom:0%;
+	left:0%;
+	width:100%;
+}
+
+@media (min-width: 1024px){
+
+}
+
+@media (min-width: 1024px) and (max-width: 1170px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
