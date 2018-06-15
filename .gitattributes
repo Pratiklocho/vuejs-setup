@@ -1,4 +1,4 @@
 static/* linguist-vendored
 src/assets/* linguist-vendored
-src/build/* linguist-vendored
-src/config/* linguist-vendored
+build/* linguist-vendored
+config/* linguist-vendored
