@@ -2,3 +2,4 @@ static/* linguist-vendored
 src/assets/* linguist-vendored
 build/* linguist-vendored
 config/* linguist-vendored
+*.rb linguist-language=Vue
